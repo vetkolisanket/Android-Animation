@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Animations</string>
+    <string name="without_animation">Without animation</string>
+    <string name="with_animtaion">with animtaion</string>
 </resources>
