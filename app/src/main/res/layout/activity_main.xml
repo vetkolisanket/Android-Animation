@@ -24,6 +24,12 @@
             android:layout_height="wrap_content"
             android:text="@string/slide"/>
 
+        <Button
+            android:id="@+id/btnExplode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/explode"/>
+
     </LinearLayout>
 
 </ScrollView>

@@ -4,4 +4,6 @@
     <string name="with_animtaion">with animtaion</string>
     <string name="with_or_without_animation">With or Without animation</string>
     <string name="slide">Slide</string>
+    <string name="explode">Explode</string>
+    <string name="populate">Populate</string>
 </resources>

@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
     private fun init() {
         btnWithWithoutAnimation.setOnClickListener { startActivity(WithWithoutAnimationActivity.newIntent(this)) }
         btnSlide.setOnClickListener { startActivity(SlideActivity.newIntent(this)) }
+        btnExplode.setOnClickListener { startActivity(ExplodeActivity.newIntent(this)) }
     }
 }
