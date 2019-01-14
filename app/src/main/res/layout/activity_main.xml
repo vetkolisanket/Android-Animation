@@ -18,6 +18,12 @@
             android:text="@string/with_or_without_animation"
             android:gravity="center"/>
 
+        <Button
+            android:id="@+id/btnSlide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slide"/>
+
     </LinearLayout>
 
 </ScrollView>
