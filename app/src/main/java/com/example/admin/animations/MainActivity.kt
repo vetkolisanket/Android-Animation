@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
         btnSlide.setOnClickListener { startActivity(SlideActivity.newIntent(this)) }
         btnExplode.setOnClickListener { startActivity(ExplodeActivity.newIntent(this)) }
         btnChangeImageTransform.setOnClickListener { startActivity(ChangeImageTransformActivity.newIntent(this)) }
+        btnPathMotion.setOnClickListener { startActivity(PathCurvedMotionActivity.newIntent(this)) }
     }
 }
