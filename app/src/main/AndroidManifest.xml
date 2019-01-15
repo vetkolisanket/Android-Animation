@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".WithWithoutAnimationActivity" />
         <activity android:name=".SlideActivity" />
-        <activity android:name=".ExplodeActivity"></activity>
+        <activity android:name=".ExplodeActivity" />
+        <activity android:name=".ChangeImageTransformActivity"></activity>
     </application>
 
 </manifest>
