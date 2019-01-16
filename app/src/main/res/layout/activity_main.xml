@@ -42,6 +42,14 @@
             android:layout_height="wrap_content"
             android:text="@string/path_curved_motion"/>
 
+        <Button
+            android:id="@+id/btnActivitySceneTransition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/activity_scene_transition"
+            android:transitionName="@string/activity_scene_transition"
+            tools:targetApi="lollipop" />
+
     </LinearLayout>
 
 </ScrollView>

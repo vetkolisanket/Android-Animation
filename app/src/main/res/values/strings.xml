@@ -8,4 +8,5 @@
     <string name="populate">Populate</string>
     <string name="change_image_transform">Change image transform</string>
     <string name="path_curved_motion">Path (Curved) Motion</string>
+    <string name="activity_scene_transition">Activity scene transition</string>
 </resources>

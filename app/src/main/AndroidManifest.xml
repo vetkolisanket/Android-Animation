@@ -20,7 +20,8 @@
         <activity android:name=".SlideActivity" />
         <activity android:name=".ExplodeActivity" />
         <activity android:name=".ChangeImageTransformActivity" />
-        <activity android:name=".PathCurvedMotionActivity"></activity>
+        <activity android:name=".PathCurvedMotionActivity" />
+        <activity android:name=".ActivitySceneTransitionActivity"></activity>
     </application>
 
 </manifest>
