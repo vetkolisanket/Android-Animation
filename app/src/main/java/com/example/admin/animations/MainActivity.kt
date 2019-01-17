@@ -31,5 +31,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(ActivitySceneTransitionActivity.newIntent(this), animation.toBundle())
             }
         }
+        btnTransitionName.setOnClickListener { startActivity(TransitionNameActivity.newIntent(this)) }
     }
 }

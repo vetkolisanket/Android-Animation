@@ -50,6 +50,12 @@
             android:transitionName="@string/activity_scene_transition"
             tools:targetApi="lollipop" />
 
+        <Button
+            android:id="@+id/btnTransitionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transition_name"/>
+
     </LinearLayout>
 
 </ScrollView>
