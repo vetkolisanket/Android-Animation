@@ -11,4 +11,5 @@
     <string name="activity_scene_transition">Activity scene transition</string>
     <string name="transition_name">Transition name</string>
     <string name="shuffle">Shuffle</string>
+    <string name="coordinator_layout">Coordinator Layout</string>
 </resources>

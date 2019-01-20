@@ -32,5 +32,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
         btnTransitionName.setOnClickListener { startActivity(TransitionNameActivity.newIntent(this)) }
+        btnCoordinatorLayout.setOnClickListener { startActivity(CoordinatorLayoutActivity.newIntent(this)) }
     }
 }
