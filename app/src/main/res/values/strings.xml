@@ -14,4 +14,6 @@
     <string name="coordinator_layout">Coordinator Layout</string>
     <string name="fab">FAB</string>
     <string name="title_activity_fab">FabActivity</string>
+    <string name="custom_behavior">Custom Behavior</string>
+    <string name="custom_behavior_activity">CustomBehaviorActivity</string>
 </resources>

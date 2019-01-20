@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".coordinator.CustomBehaviorActivity"
+            android:label="@string/custom_behavior_activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".coordinator.FabActivity"
             android:label="@string/title_activity_fab"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".coordinator.CoordinatorLayoutActivity" />
         <activity android:name=".animations.TransitionNameActivity" />
         <activity android:name=".MainActivity">

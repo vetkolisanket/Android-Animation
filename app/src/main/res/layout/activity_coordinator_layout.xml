@@ -5,12 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CoordinatorLayoutActivity">
+    tools:context=".coordinator.CoordinatorLayoutActivity">
 
     <Button
         android:id="@+id/btnFab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fab"/>
+
+    <Button
+        android:id="@+id/btnCustomBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_behavior"/>
 
 </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExplodeActivity">
+    tools:context=".animations.ExplodeActivity">
 
     <Button
         android:id="@+id/btnExplode"
