@@ -1,4 +1,4 @@
-package com.example.admin.animations.coordinator
+package com.example.admin.animations.coordinator.custom
 
 import android.support.design.widget.CoordinatorLayout
 import android.support.design.widget.Snackbar

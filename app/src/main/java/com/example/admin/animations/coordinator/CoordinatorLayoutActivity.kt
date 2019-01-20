@@ -23,5 +23,6 @@ class CoordinatorLayoutActivity : AppCompatActivity() {
     private fun init() {
         btnFab.setOnClickListener { startActivity(FabActivity.newIntent(this)) }
         btnCustomBehavior.setOnClickListener { startActivity(CustomBehaviorActivity.newIntent(this)) }
+        btnCustomRotateBehavior.setOnClickListener { startActivity(CustomRotateBehaviorActivity.newIntent(this)) }
     }
 }

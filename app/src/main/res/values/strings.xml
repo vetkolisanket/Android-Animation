@@ -16,4 +16,6 @@
     <string name="title_activity_fab">FabActivity</string>
     <string name="custom_behavior">Custom Behavior</string>
     <string name="custom_behavior_activity">CustomBehaviorActivity</string>
+    <string name="custom_rotate_behavior">Custom Rotate Behavior</string>
+    <string name="title_activity_custom_roate_behavior">CustomRoateBehaviorActivity</string>
 </resources>

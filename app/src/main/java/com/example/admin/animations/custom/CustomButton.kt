@@ -4,7 +4,7 @@ import android.content.Context
 import android.support.design.widget.CoordinatorLayout
 import android.support.v7.widget.AppCompatButton
 import android.util.AttributeSet
-import com.example.admin.animations.coordinator.CustomMoveUpBehavior
+import com.example.admin.animations.coordinator.custom.CustomMoveUpBehavior
 
 
 /**
