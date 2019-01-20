@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.utils
 
 import android.view.View
 import android.widget.TextView

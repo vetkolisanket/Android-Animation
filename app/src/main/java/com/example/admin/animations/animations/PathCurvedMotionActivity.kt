@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.animations
 
 import android.content.Context
 import android.content.Intent
@@ -10,6 +10,7 @@ import android.transition.ChangeBounds
 import android.transition.TransitionManager
 import android.view.Gravity
 import android.widget.FrameLayout
+import com.example.admin.animations.R
 import kotlinx.android.synthetic.main.activity_path_curved_motion.*
 
 

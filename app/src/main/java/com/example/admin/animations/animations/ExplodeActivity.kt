@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.animations
 
 import android.content.Context
 import android.content.Intent
@@ -10,6 +10,7 @@ import android.transition.Explode
 import android.transition.Transition
 import android.transition.TransitionManager
 import android.view.View
+import com.example.admin.animations.R
 import kotlinx.android.synthetic.main.activity_explode.*
 
 

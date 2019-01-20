@@ -1,9 +1,10 @@
-package com.example.admin.animations
+package com.example.admin.animations.coordinator
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.example.admin.animations.R
 import kotlinx.android.synthetic.main.activity_coordinator_layout.*
 
 class CoordinatorLayoutActivity : AppCompatActivity() {

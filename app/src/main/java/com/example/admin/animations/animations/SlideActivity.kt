@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.animations
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity
 import android.transition.Slide
 import android.transition.TransitionManager
 import android.view.Gravity
+import com.example.admin.animations.R
+import com.example.admin.animations.utils.hide
+import com.example.admin.animations.utils.show
 import kotlinx.android.synthetic.main.activity_slide.*
 
 class SlideActivity : AppCompatActivity() {

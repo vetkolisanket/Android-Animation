@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.animations
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.transition.TransitionManager
 import android.view.LayoutInflater
 import android.widget.TextView
+import com.example.admin.animations.R
 import kotlinx.android.synthetic.main.activity_transition_name.*
 
 class TransitionNameActivity : AppCompatActivity() {

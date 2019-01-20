@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.animations
 
 import android.content.Context
 import android.content.Intent
@@ -6,6 +6,9 @@ import android.os.Build
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.transition.TransitionManager
+import com.example.admin.animations.R
+import com.example.admin.animations.utils.hide
+import com.example.admin.animations.utils.show
 import kotlinx.android.synthetic.main.activity_with_without_animations.*
 
 class WithWithoutAnimationActivity : AppCompatActivity() {

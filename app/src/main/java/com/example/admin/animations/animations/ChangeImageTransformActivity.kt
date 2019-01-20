@@ -1,4 +1,4 @@
-package com.example.admin.animations
+package com.example.admin.animations.animations
 
 import android.content.Context
 import android.content.Intent
@@ -11,6 +11,7 @@ import android.transition.TransitionManager
 import android.transition.TransitionSet
 import android.view.ViewGroup
 import android.widget.ImageView
+import com.example.admin.animations.R
 import kotlinx.android.synthetic.main.activity_change_image_transform.*
 
 

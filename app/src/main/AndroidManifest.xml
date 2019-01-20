@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FabActivity"
+            android:name=".coordinator.FabActivity"
             android:label="@string/title_activity_fab"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".CoordinatorLayoutActivity" />
-        <activity android:name=".TransitionNameActivity" />
+        <activity android:name=".coordinator.CoordinatorLayoutActivity" />
+        <activity android:name=".animations.TransitionNameActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,12 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WithWithoutAnimationActivity" />
-        <activity android:name=".SlideActivity" />
-        <activity android:name=".ExplodeActivity" />
-        <activity android:name=".ChangeImageTransformActivity" />
-        <activity android:name=".PathCurvedMotionActivity" />
-        <activity android:name=".ActivitySceneTransitionActivity" />
+        <activity android:name=".animations.WithWithoutAnimationActivity" />
+        <activity android:name=".animations.SlideActivity" />
+        <activity android:name=".animations.ExplodeActivity" />
+        <activity android:name=".animations.ChangeImageTransformActivity" />
+        <activity android:name=".animations.PathCurvedMotionActivity" />
+        <activity android:name=".animations.ActivitySceneTransitionActivity" />
     </application>
 
 </manifest>
