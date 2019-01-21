@@ -25,5 +25,6 @@ class CoordinatorLayoutActivity : AppCompatActivity() {
         btnCustomBehavior.setOnClickListener { startActivity(CustomBehaviorActivity.newIntent(this)) }
         btnCustomRotateBehavior.setOnClickListener { startActivity(CustomRotateBehaviorActivity.newIntent(this)) }
         btnCollapsingToolbar.setOnClickListener { startActivity(ScrollingActivity.newIntent(this)) }
+        btnParallax.setOnClickListener { startActivity(ParallaxActivity.newIntent(this)) }
     }
 }

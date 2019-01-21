@@ -110,4 +110,7 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="collapsing_toolbar">Collapsing Toolbar</string>
+    <string name="title_activity_parallax">ParallaxActivity</string>
+    <string name="parallax">Parallax</string>
+    <string name="action_info">info</string>
 </resources>
