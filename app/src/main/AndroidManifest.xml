@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".coordinator.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".coordinator.CustomRotateBehaviorActivity"
             android:label="@string/title_activity_custom_roate_behavior"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".coordinator.CustomBehaviorActivity"
             android:label="@string/custom_behavior_activity"
