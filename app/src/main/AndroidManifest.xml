@@ -40,10 +40,16 @@
         </activity>
         <activity android:name=".animations.WithWithoutAnimationActivity" />
         <activity android:name=".animations.SlideActivity" />
-        <activity android:name=".animations.ExplodeActivity" />
-        <activity android:name=".animations.ChangeImageTransformActivity" />
+        <activity
+            android:name=".animations.ExplodeActivity"
+            android:theme="@style/AppTheme.Animations.Explode" />
+        <activity
+            android:name=".animations.ChangeImageTransformActivity"
+            android:theme="@style/AppTheme.Animations.ChangeImageTransform" />
         <activity android:name=".animations.PathCurvedMotionActivity" />
-        <activity android:name=".animations.ActivitySceneTransitionActivity" />
+        <activity
+            android:name=".animations.ActivitySceneTransitionActivity"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
