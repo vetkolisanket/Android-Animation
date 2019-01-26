@@ -12,7 +12,7 @@
         <activity
             android:name=".coordinator.ParallaxActivity"
             android:label="@string/title_activity_parallax"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".coordinator.ScrollingActivity"
             android:label="@string/title_activity_scrolling"

@@ -13,9 +13,7 @@ import kotlinx.android.synthetic.main.activity_with_without_animations.*
 
 class WithWithoutAnimationActivity : AppCompatActivity() {
 
-    private var toggleWithoutAnimation = true
-
-    private var toggleWithAnimation = true
+    private var toggleAnimation = true
 
     companion object {
         @JvmStatic
@@ -31,25 +29,26 @@ class WithWithoutAnimationActivity : AppCompatActivity() {
 
     private fun init() {
         btnWithoutAnimation.setOnClickListener {
-            if (toggleWithoutAnimation) {
-                tvWithoutAnimation.hide()
-            } else {
-                tvWithoutAnimation.show()
-            }
-            toggleWithoutAnimation = !toggleWithoutAnimation;
+            toggle()
         }
 
         btnWithAnimation.setOnClickListener {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-                TransitionManager.beginDelayedTransition(llWithAnimation)
-            }
-            if (toggleWithAnimation) {
-                tvWithAnimation.hide()
-            } else {
-                tvWithAnimation.show()
-            }
-            toggleWithAnimation = !toggleWithAnimation;
+            toggle()
         }
+    }
+
+    private fun toggle() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            TransitionManager.beginDelayedTransition(llWithAnimation)
+        }
+        if (toggleAnimation) {
+            tvWithAnimation.hide()
+            tvWithoutAnimation.hide()
+        } else {
+            tvWithAnimation.show()
+            tvWithoutAnimation.show()
+        }
+        toggleAnimation = !toggleAnimation
     }
 }
 

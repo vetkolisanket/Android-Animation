@@ -21,10 +21,15 @@ class MainActivity : AppCompatActivity() {
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     private fun init() {
         btnWithWithoutAnimation.setOnClickListener { startActivity(WithWithoutAnimationActivity.newIntent(this)) }
+
         btnSlide.setOnClickListener { startActivity(SlideActivity.newIntent(this)) }
+
         btnExplode.setOnClickListener { startActivity(ExplodeActivity.newIntent(this), ActivityOptionsCompat.makeSceneTransitionAnimation(this).toBundle()) }
+
         btnChangeImageTransform.setOnClickListener { startActivity(ChangeImageTransformActivity.newIntent(this), ActivityOptionsCompat.makeSceneTransitionAnimation(this).toBundle()) }
+
         btnPathMotion.setOnClickListener { startActivity(PathCurvedMotionActivity.newIntent(this)) }
+
         btnActivitySceneTransition.setOnClickListener {
             val animation = ActivityOptionsCompat.
                     makeSceneTransitionAnimation(this, btnActivitySceneTransition,
@@ -33,7 +38,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(ActivitySceneTransitionActivity.newIntent(this), animation.toBundle())
             }
         }
+
         btnTransitionName.setOnClickListener { startActivity(TransitionNameActivity.newIntent(this)) }
+
         btnCoordinatorLayout.setOnClickListener { startActivity(CoordinatorLayoutActivity.newIntent(this)) }
+
     }
 }
