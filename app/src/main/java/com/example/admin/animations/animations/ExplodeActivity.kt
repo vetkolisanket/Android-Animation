@@ -30,7 +30,12 @@ class ExplodeActivity : AppCompatActivity() {
     }
 
     private fun init() {
+        initToolbar()
         initViews()
+    }
+
+    private fun initToolbar() {
+        setSupportActionBar(toolbarExplode)
     }
 
     private fun initViews() {
