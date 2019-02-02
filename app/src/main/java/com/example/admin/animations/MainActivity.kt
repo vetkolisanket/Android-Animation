@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v4.app.ActivityOptionsCompat
 import android.support.v7.app.AppCompatActivity
 import com.example.admin.animations.animations.*
+import com.example.admin.animations.constraint.ConstraintLayoutActivity
 import com.example.admin.animations.coordinator.CoordinatorLayoutActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -42,6 +43,8 @@ class MainActivity : AppCompatActivity() {
         btnTransitionName.setOnClickListener { startActivity(TransitionNameActivity.newIntent(this)) }
 
         btnCoordinatorLayout.setOnClickListener { startActivity(CoordinatorLayoutActivity.newIntent(this)) }
+
+        btnConstraintLayout.setOnClickListener { startActivity(ConstraintLayoutActivity.newIntent(this)) }
 
     }
 }

@@ -62,6 +62,12 @@
             android:layout_height="wrap_content"
             android:text="@string/coordinator_layout"/>
 
+        <Button
+            android:id="@+id/btnConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/constraint_layout"/>
+
     </LinearLayout>
 
 </ScrollView>
