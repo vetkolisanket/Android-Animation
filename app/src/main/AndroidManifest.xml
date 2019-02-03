@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".constraint.ConstraintLayoutActivity"/>
+        <activity android:name=".constraint.SwapViewsActivity"></activity>
+        <activity android:name=".constraint.ConstraintLayoutActivity" />
         <activity
             android:name=".coordinator.ParallaxActivity"
             android:label="@string/title_activity_parallax"

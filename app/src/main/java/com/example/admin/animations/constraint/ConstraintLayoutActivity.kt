@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.example.admin.animations.R
+import kotlinx.android.synthetic.main.activity_constraint_layout.*
 
 class ConstraintLayoutActivity : AppCompatActivity() {
 
@@ -15,5 +16,11 @@ class ConstraintLayoutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_constraint_layout)
+
+        init()
+    }
+
+    private fun init() {
+        btnSwapViews.setOnClickListener { startActivity(SwapViewsActivity.newIntent(this)) }
     }
 }
