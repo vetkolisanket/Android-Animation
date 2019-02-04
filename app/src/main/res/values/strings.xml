@@ -115,4 +115,6 @@
     <string name="action_info">info</string>
     <string name="constraint_layout">Constraint Layout</string>
     <string name="swap_views">Swap views</string>
+    <string name="constraint_set">Constraint set</string>
+    <string name="swap_layouts">Swap layouts</string>
 </resources>
