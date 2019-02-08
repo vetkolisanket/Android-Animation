@@ -117,4 +117,5 @@
     <string name="swap_views">Swap views</string>
     <string name="constraint_set">Constraint set</string>
     <string name="swap_layouts">Swap layouts</string>
+    <string name="interpolators">Interpolators</string>
 </resources>

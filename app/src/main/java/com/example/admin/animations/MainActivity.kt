@@ -46,5 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         btnConstraintLayout.setOnClickListener { startActivity(ConstraintLayoutActivity.newIntent(this)) }
 
+        btnInterpolators.setOnClickListener { startActivity(InterpolatorsActivity.newIntent(this)) }
+
     }
 }
