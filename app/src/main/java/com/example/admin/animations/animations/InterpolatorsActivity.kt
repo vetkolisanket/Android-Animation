@@ -41,7 +41,7 @@ class InterpolatorsActivity : AppCompatActivity() {
             animatePB(pbAccelerate, AccelerateInterpolator(), isAccelerateAnimated)
             animatePB(pbDecelerate, DecelerateInterpolator(), isDecelerateAnimated)
             animatePB(pbAccelerateDecelerate, AccelerateDecelerateInterpolator(), isAccelerateDecelerateAnimated)
-            animatePB(pbCycle, CycleInterpolator(1F), false)
+            animatePB(pbCycle, CycleInterpolator(1.5F), false)
             animatePB(pbAnticipate, AnticipateInterpolator(), isAnticipateAnimated)
             animatePB(pbOvershoot, OvershootInterpolator(), isOvershootAnimated)
             animatePB(pbAnticipateOvershoot, AnticipateOvershootInterpolator(), isAnticipateOvershootAnimated)
@@ -66,22 +66,22 @@ class InterpolatorsActivity : AppCompatActivity() {
 
     private fun animatePB(progressBar: ProgressBar, interpolator: TimeInterpolator, isAnimated: Boolean) {
         val animation = ObjectAnimator.ofInt(progressBar, "progress", getStart(isAnimated), getEnd(isAnimated))
-        animation.duration = 1000
+        animation.duration = 5000
         animation.interpolator = interpolator
         animation.start()
     }
 
     private fun getEnd(isAnimated: Boolean): Int {
         if (isAnimated) {
-            return 0
+            return 25
         }
-        return 100
+        return 75
     }
 
     private fun getStart(isAnimated: Boolean): Int {
         if (isAnimated) {
-            return 100
+            return 75
         }
-        return 0
+        return 25
     }
 }
