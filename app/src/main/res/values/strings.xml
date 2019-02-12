@@ -120,4 +120,13 @@
     <string name="interpolators">Interpolators</string>
     <string name="animate">animate</string>
     <string name="linear_interpolator">Linear Interpolator</string>
+    <string name="accelerate_interpolator">Accelerate Interpolator</string>
+    <string name="decelerate_interpolator">Decelerate Interpolator</string>
+    <string name="acceleratedecelerate_interpolator">AccelerateDecelerate Interpolator</string>
+    <string name="cycle_interpolator">Cycle Interpolator</string>
+    <string name="anticipate_interpolator">Anticipate Interpolator</string>
+    <string name="overshoot_interpolator">Overshoot Interpolator</string>
+    <string name="anticipateovershoot_interpolator">AnticipateOvershoot Interpolator</string>
+    <string name="bounce_interpolator">Bounce Interpolator</string>
+    <string name="customspring_interpolator">CustomSpring Interpolator</string>
 </resources>
