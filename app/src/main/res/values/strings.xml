@@ -118,4 +118,6 @@
     <string name="constraint_set">Constraint set</string>
     <string name="swap_layouts">Swap layouts</string>
     <string name="interpolators">Interpolators</string>
+    <string name="animate">animate</string>
+    <string name="linear_interpolator">Linear Interpolator</string>
 </resources>
