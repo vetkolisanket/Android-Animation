@@ -23,6 +23,12 @@
             android:layout_height="wrap_content"
             android:text="@string/swap_layouts"/>
 
+        <Button
+            android:id="@+id/btnMultiFab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/multi_fab"/>
+
     </LinearLayout>
 
 </ScrollView>

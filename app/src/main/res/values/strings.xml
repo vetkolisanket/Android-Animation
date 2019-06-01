@@ -129,4 +129,5 @@
     <string name="anticipateovershoot_interpolator">AnticipateOvershoot Interpolator</string>
     <string name="bounce_interpolator">Bounce Interpolator</string>
     <string name="customspring_interpolator">CustomSpring Interpolator</string>
+    <string name="multi_fab">Multi Fab</string>
 </resources>
