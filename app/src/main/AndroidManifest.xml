@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.admin.animations">
+<manifest package="com.example.admin.animations"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,51 +11,53 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".animations.InterpolatorsActivity"></activity>
-        <activity android:name=".constraint.ConstraintSetActivity" />
-        <activity android:name=".constraint.SwapViewsActivity" />
-        <activity android:name=".constraint.ConstraintLayoutActivity" />
+        <activity android:name=".constraint.MultiFabActivity">
+        </activity>
+        <activity android:name=".animations.InterpolatorsActivity"/>
+        <activity android:name=".constraint.ConstraintSetActivity"/>
+        <activity android:name=".constraint.SwapViewsActivity"/>
+        <activity android:name=".constraint.ConstraintLayoutActivity"/>
         <activity
             android:name=".coordinator.ParallaxActivity"
             android:label="@string/title_activity_parallax"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".coordinator.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".coordinator.CustomRotateBehaviorActivity"
             android:label="@string/title_activity_custom_roate_behavior"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".coordinator.CustomBehaviorActivity"
             android:label="@string/custom_behavior_activity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".coordinator.FabActivity"
             android:label="@string/title_activity_fab"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".coordinator.CoordinatorLayoutActivity" />
-        <activity android:name=".animations.TransitionNameActivity" />
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".coordinator.CoordinatorLayoutActivity"/>
+        <activity android:name=".animations.TransitionNameActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".animations.WithWithoutAnimationActivity" />
-        <activity android:name=".animations.SlideActivity" />
+        <activity android:name=".animations.WithWithoutAnimationActivity"/>
+        <activity android:name=".animations.SlideActivity"/>
         <activity
             android:name=".animations.ExplodeActivity"
-            android:theme="@style/AppTheme.Animations.Explode" />
+            android:theme="@style/AppTheme.Animations.Explode"/>
         <activity
             android:name=".animations.ChangeImageTransformActivity"
-            android:theme="@style/AppTheme.Animations.ChangeImageTransform" />
-        <activity android:name=".animations.PathCurvedMotionActivity" />
+            android:theme="@style/AppTheme.Animations.ChangeImageTransform"/>
+        <activity android:name=".animations.PathCurvedMotionActivity"/>
         <activity
             android:name=".animations.ActivitySceneTransitionActivity"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>

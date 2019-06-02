@@ -23,5 +23,8 @@ class ConstraintLayoutActivity : AppCompatActivity() {
     private fun init() {
         btnSwapViews.setOnClickListener { startActivity(SwapViewsActivity.newIntent(this)) }
         btnSwapLayouts.setOnClickListener { startActivity(ConstraintSetActivity.newIntent(this)) }
+        btnMultiFab.setOnClickListener {
+            startActivity(MultiFabActivity.newIntent(this))
+        }
     }
 }
