@@ -30,12 +30,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         app:backgroundTint="@color/colorPrimary"
         app:fabSize="mini"
         app:layout_constraintBottom_toTopOf="@+id/fabMulti"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fabMulti"
+        app:layout_constraintStart_toStartOf="@+id/fabMulti"
         app:srcCompat="@android:drawable/ic_input_add"/>
 
     <android.support.design.widget.FloatingActionButton
@@ -44,12 +43,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         app:backgroundTint="@color/colorPrimary"
         app:fabSize="mini"
         app:layout_constraintBottom_toTopOf="@+id/fabCreate"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fabCreate"
+        app:layout_constraintStart_toStartOf="@+id/fabCreate"
         app:srcCompat="@android:drawable/ic_input_add"/>
 
 </android.support.constraint.ConstraintLayout>
