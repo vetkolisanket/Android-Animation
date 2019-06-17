@@ -15,10 +15,10 @@
         android:layout_gravity="bottom|end"
         app:backgroundTint="@color/colorPrimary"
         app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMulti"
         app:layout_constraintEnd_toEndOf="@+id/fabMulti"
         app:layout_constraintStart_toStartOf="@+id/fabMulti"
         app:layout_constraintTop_toTopOf="@+id/fabMulti"
-        app:layout_constraintBottom_toBottomOf="@+id/fabMulti"
         app:srcCompat="@android:drawable/ic_input_add"/>
 
     <android.support.design.widget.FloatingActionButton
@@ -26,15 +26,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         app:backgroundTint="@color/colorPrimary"
         app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="@+id/fabMulti"
         app:layout_constraintEnd_toEndOf="@+id/fabMulti"
         app:layout_constraintStart_toStartOf="@+id/fabMulti"
         app:layout_constraintTop_toTopOf="@+id/fabMulti"
-        app:layout_constraintBottom_toBottomOf="@+id/fabMulti"
         app:srcCompat="@android:drawable/ic_input_add"/>
 
     <android.support.design.widget.FloatingActionButton
