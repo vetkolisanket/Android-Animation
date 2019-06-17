@@ -6,10 +6,8 @@ import android.os.Build
 import android.os.Bundle
 import android.support.constraint.ConstraintSet
 import android.support.v7.app.AppCompatActivity
-import android.transition.ChangeBounds
 import android.transition.TransitionManager
 import android.view.View
-import android.view.animation.DecelerateInterpolator
 import com.example.admin.animations.R
 import kotlinx.android.synthetic.main.activity_multi_fab.*
 
@@ -38,9 +36,9 @@ class MultiFabActivity : AppCompatActivity() {
     fun swapLayout(view: View) {
         activated = !activated
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            val changeBounds = ChangeBounds()
-            changeBounds.interpolator = DecelerateInterpolator()
-            TransitionManager.beginDelayedTransition(parentLayout, changeBounds)
+//            val changeBounds = ChangeBounds()
+//            changeBounds.interpolator = DecelerateInterpolator()
+            TransitionManager.beginDelayedTransition(parentLayout)
         }
         if (activated) {
             csNew.applyTo(parentLayout)
