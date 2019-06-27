@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import com.example.admin.animations.animations.*
 import com.example.admin.animations.constraint.ConstraintLayoutActivity
 import com.example.admin.animations.coordinator.CoordinatorLayoutActivity
+import com.example.admin.animations.custom.CustomViewsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -47,6 +48,8 @@ class MainActivity : AppCompatActivity() {
         btnConstraintLayout.setOnClickListener { startActivity(ConstraintLayoutActivity.newIntent(this)) }
 
         btnInterpolators.setOnClickListener { startActivity(InterpolatorsActivity.newIntent(this)) }
+
+        btnCustomViews.setOnClickListener { startActivity(CustomViewsActivity.newIntent(this)) }
 
     }
 }

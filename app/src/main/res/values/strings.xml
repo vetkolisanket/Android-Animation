@@ -130,4 +130,6 @@
     <string name="bounce_interpolator">Bounce Interpolator</string>
     <string name="customspring_interpolator">CustomSpring Interpolator</string>
     <string name="multi_fab">Multi Fab</string>
+    <string name="custom_views">Custom Views</string>
+    <string name="poll_view">Poll View</string>
 </resources>
