@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.example.admin.animations.R
+import kotlinx.android.synthetic.main.activity_custom_views.*
 
 class CustomViewsActivity : AppCompatActivity() {
 
@@ -15,5 +16,11 @@ class CustomViewsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_custom_views)
+
+        init()
+    }
+
+    private fun init() {
+        btnPollView.setOnClickListener { startActivity(PollViewActivity.newIntent(this)) }
     }
 }
