@@ -1,19 +1,19 @@
-package com.example.admin.animations.custom
+package com.example.admin.animations.constraint
 
 import android.content.Context
 import android.content.Intent
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import com.example.admin.animations.R
 
-class PollViewActivity : AppCompatActivity() {
+class MotionLayoutActivity : AppCompatActivity() {
 
     companion object {
-        fun newIntent(context: Context) = Intent(context, PollViewActivity::class.java)
+        fun newIntent(context: Context) = Intent(context, MotionLayoutActivity::class.java)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_poll_view)
+        setContentView(R.layout.activity_motion_layout)
     }
 }

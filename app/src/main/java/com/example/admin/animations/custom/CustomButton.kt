@@ -1,8 +1,8 @@
 package com.example.admin.animations.custom
 
 import android.content.Context
-import android.support.design.widget.CoordinatorLayout
-import android.support.v7.widget.AppCompatButton
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.appcompat.widget.AppCompatButton
 import android.util.AttributeSet
 import com.example.admin.animations.coordinator.custom.CustomMoveUpBehavior
 

@@ -1,9 +1,9 @@
 package com.example.admin.animations.coordinator.custom
 
-import android.support.design.widget.CoordinatorLayout
-import android.support.design.widget.Snackbar
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import com.google.android.material.snackbar.Snackbar
 import android.view.View
-
+import kotlin.math.min
 
 
 /**
@@ -11,13 +11,13 @@ import android.view.View
  */
 public class CustomMoveUpBehavior : CoordinatorLayout.Behavior<View>() {
 
-    override fun layoutDependsOn(parent: CoordinatorLayout?, child: View?, dependency: View?): Boolean {
+    override fun layoutDependsOn(parent: CoordinatorLayout, child: View, dependency: View): Boolean {
         return dependency is Snackbar.SnackbarLayout;
     }
 
-    override fun onDependentViewChanged(parent: CoordinatorLayout?, child: View?, dependency: View?): Boolean {
-        val translationY = Math.min(0f, dependency!!.translationY - dependency.height)
-        child!!.translationY = translationY
+    override fun onDependentViewChanged(parent: CoordinatorLayout, child: View, dependency: View): Boolean {
+        val translationY = min(0f, dependency.translationY - dependency.height)
+        child.translationY = translationY
         return true
     }
 

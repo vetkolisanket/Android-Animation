@@ -1,9 +1,9 @@
 package com.example.admin.animations.coordinator.custom
 
 import android.content.Context
-import android.support.design.widget.CoordinatorLayout
-import android.support.design.widget.FloatingActionButton
-import android.support.design.widget.Snackbar
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import android.util.AttributeSet
 import android.view.View
 
@@ -18,13 +18,13 @@ class CustomRotateBehavior : CoordinatorLayout.Behavior<View> {
 
     constructor(context: Context?, attrs: AttributeSet?) : super(context, attrs)
 
-    override fun layoutDependsOn(parent: CoordinatorLayout?, child: View?, dependency: View?): Boolean {
+    override fun layoutDependsOn(parent: CoordinatorLayout, child: View, dependency: View): Boolean {
         return dependency is Snackbar.SnackbarLayout
     }
 
-    override fun onDependentViewChanged(parent: CoordinatorLayout?, child: View?, dependency: View?): Boolean {
-        val translationY = getFabTranslationYForSnackbar(parent!!, child as FloatingActionButton)
-        val percentComplete = -translationY / dependency!!.height
+    override fun onDependentViewChanged(parent: CoordinatorLayout, child: View, dependency: View): Boolean {
+        val translationY = getFabTranslationYForSnackbar(parent, child as FloatingActionButton)
+        val percentComplete = -translationY / dependency.height
         child.setRotation(180 * percentComplete)
         child.setTranslationY(translationY)
         return false

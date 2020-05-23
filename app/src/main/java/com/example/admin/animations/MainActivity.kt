@@ -3,8 +3,8 @@ package com.example.admin.animations
 import android.annotation.TargetApi
 import android.os.Build
 import android.os.Bundle
-import android.support.v4.app.ActivityOptionsCompat
-import android.support.v7.app.AppCompatActivity
+import androidx.core.app.ActivityOptionsCompat
+import androidx.appcompat.app.AppCompatActivity
 import com.example.admin.animations.animations.*
 import com.example.admin.animations.constraint.ConstraintLayoutActivity
 import com.example.admin.animations.coordinator.CoordinatorLayoutActivity

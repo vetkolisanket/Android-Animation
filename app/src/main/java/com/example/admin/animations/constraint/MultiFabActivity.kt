@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.support.constraint.ConstraintSet
-import android.support.v7.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintSet
+import androidx.appcompat.app.AppCompatActivity
 import android.transition.TransitionManager
 import android.view.View
 import com.example.admin.animations.R
@@ -13,8 +13,8 @@ import kotlinx.android.synthetic.main.activity_multi_fab.*
 
 class MultiFabActivity : AppCompatActivity() {
 
-    private val csOld by lazy {   ConstraintSet() }
-    private val csNew by lazy {  ConstraintSet() }
+    private val csOld by lazy { ConstraintSet() }
+    private val csNew by lazy { ConstraintSet() }
     private var activated = false
 
     companion object {
