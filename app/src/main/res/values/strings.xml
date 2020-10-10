@@ -133,4 +133,6 @@
     <string name="custom_views">Custom Views</string>
     <string name="poll_view">Poll View</string>
     <string name="motion_layout">Motion Layout</string>
+    <string name="material">Material</string>
+    <string name="extended_fab">Extended Fab</string>
 </resources>

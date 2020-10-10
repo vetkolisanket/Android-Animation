@@ -80,6 +80,12 @@
             android:layout_height="wrap_content"
             android:text="@string/custom_views"/>
 
+        <Button
+            android:id="@+id/btnMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/material"/>
+
     </LinearLayout>
 
 </ScrollView>
