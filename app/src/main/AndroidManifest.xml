@@ -11,11 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".material.ExtendedFabActivity"
-            android:theme="@style/AppTheme.Material"
-            />
+        <activity android:name=".constraint.motion.BasicMotionLayoutActivity"/>
+        <activity
+            android:name=".material.ExtendedFabActivity"
+            android:theme="@style/AppTheme.Material" />
         <activity android:name=".material.MaterialActivity" />
-        <activity android:name=".constraint.MotionLayoutActivity" />
+        <activity android:name=".constraint.motion.MotionLayoutActivity" />
         <activity android:name=".custom.PollViewActivity" />
         <activity android:name=".custom.CustomViewsActivity" />
         <activity android:name=".constraint.MultiFabActivity" />

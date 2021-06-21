@@ -135,4 +135,6 @@
     <string name="motion_layout">Motion Layout</string>
     <string name="material">Material</string>
     <string name="extended_fab">Extended Fab</string>
+    <string name="basic">Basic</string>
+    <string name="slide_up_for_the_animation">Slide Up for the animation</string>
 </resources>

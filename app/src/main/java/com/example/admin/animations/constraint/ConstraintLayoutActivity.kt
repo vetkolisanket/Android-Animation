@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.admin.animations.R
+import com.example.admin.animations.constraint.motion.MotionLayoutActivity
 import kotlinx.android.synthetic.main.activity_constraint_layout.*
 
 class ConstraintLayoutActivity : AppCompatActivity() {
