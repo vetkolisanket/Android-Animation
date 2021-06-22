@@ -18,5 +18,6 @@ class MotionLayoutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_motion_layout)
 
         btnBasic.setOnClickListener { startActivity(BasicMotionLayoutActivity.newIntent(this)) }
+        btnKeyFrameSet.setOnClickListener { startActivity(KeyFrameSetActivity.newIntent(this)) }
     }
 }

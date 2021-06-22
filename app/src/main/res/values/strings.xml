@@ -137,4 +137,8 @@
     <string name="extended_fab">Extended Fab</string>
     <string name="basic">Basic</string>
     <string name="slide_up_for_the_animation">Slide Up for the animation</string>
+    <string name="key_frame_set">Key Frame Set</string>
+    <string name="hello">Hello</string>
+    <string name="sanket">Sanket</string>
+    <string name="click">Click</string>
 </resources>
