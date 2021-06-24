@@ -30,4 +30,11 @@
         android:text="@string/key_frame_set"
         />
 
+    <Button
+        android:id="@+id/btnCoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coordinator_layout"
+        />
+
 </LinearLayout>
