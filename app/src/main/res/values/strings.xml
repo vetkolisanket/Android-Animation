@@ -142,4 +142,6 @@
     <string name="sanket">Sanket</string>
     <string name="click">Click</string>
     <string name="basic_2">Basic 2</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="title">Title</string>
 </resources>
