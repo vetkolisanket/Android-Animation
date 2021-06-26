@@ -24,6 +24,13 @@
         />
 
     <Button
+        android:id="@+id/btnImageSaturation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/image_saturation"
+        />
+
+    <Button
         android:id="@+id/btnKeyFrameSet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

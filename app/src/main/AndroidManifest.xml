@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".constraint.motion.CoordinatorLayoutWithMotionLayoutActivity"></activity>
+        <activity android:name=".constraint.motion.ImageSaturationActivity"></activity>
+        <activity android:name=".constraint.motion.CoordinatorLayoutWithMotionLayoutActivity" />
         <activity android:name=".constraint.motion.BasicMotionLayout2Activity" />
         <activity android:name=".constraint.motion.KeyFrameSetActivity" />
         <activity android:name=".constraint.motion.BasicMotionLayoutActivity" />
