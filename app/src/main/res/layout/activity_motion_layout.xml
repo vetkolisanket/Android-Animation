@@ -44,4 +44,11 @@
         android:text="@string/coordinator_layout"
         />
 
+    <Button
+        android:id="@+id/btnCoordinatorLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coordinator_layout_2"
+        />
+
 </LinearLayout>

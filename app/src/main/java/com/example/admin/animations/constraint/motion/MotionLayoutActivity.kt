@@ -22,5 +22,6 @@ class MotionLayoutActivity : AppCompatActivity() {
         btnKeyFrameSet.setOnClickListener { startActivity(KeyFrameSetActivity.newIntent(this)) }
         btnCoordinatorLayout.setOnClickListener { startActivity(CoordinatorLayoutWithMotionLayoutActivity.newIntent(this)) }
         btnImageSaturation.setOnClickListener { startActivity(ImageSaturationActivity.newIntent(this)) }
+        btnCoordinatorLayout2.setOnClickListener { startActivity(CoordinatorLayoutWithMotionLayout2Activity.newIntent(this)) }
     }
 }

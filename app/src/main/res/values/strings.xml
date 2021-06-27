@@ -145,4 +145,6 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="title">Title</string>
     <string name="image_saturation">Image Saturation</string>
+    <string name="coordinator_layout_2">Coordinator Layout 2</string>
+    <string name="vetkoli">Vetkoli</string>
 </resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".constraint.motion.CoordinatorLayoutWithMotionLayout2Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <com.example.admin.animations.custom.CollapsibleToolbar
+            android:id="@+id/collapsingToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="50dp"
+            android:background="@color/colorPrimary"
+            app:layoutDescription="@xml/coordinator_motion_scene_2"
+            app:layout_scrollFlags="enterAlways|snap|exitUntilCollapsed|scroll"
+            >
+
+            <ImageView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorAccent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cake"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sanket"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vetkoli"
+                android:textColor="@android:color/white"
+                app:fontFamily="cursive"
+                android:textSize="32sp"
+                />
+
+        </com.example.admin.animations.custom.CollapsibleToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/large_text"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
