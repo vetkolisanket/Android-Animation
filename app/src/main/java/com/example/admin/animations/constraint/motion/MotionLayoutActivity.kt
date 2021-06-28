@@ -23,5 +23,6 @@ class MotionLayoutActivity : AppCompatActivity() {
         btnCoordinatorLayout.setOnClickListener { startActivity(CoordinatorLayoutWithMotionLayoutActivity.newIntent(this)) }
         btnImageSaturation.setOnClickListener { startActivity(ImageSaturationActivity.newIntent(this)) }
         btnCoordinatorLayout2.setOnClickListener { startActivity(CoordinatorLayoutWithMotionLayout2Activity.newIntent(this)) }
+        btnParallax.setOnClickListener { startActivity(MotionParallaxActivity.newIntent(this)) }
     }
 }

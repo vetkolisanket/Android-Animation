@@ -51,4 +51,11 @@
         android:text="@string/coordinator_layout_2"
         />
 
+    <Button
+        android:id="@+id/btnParallax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parallax"
+        />
+
 </LinearLayout>
