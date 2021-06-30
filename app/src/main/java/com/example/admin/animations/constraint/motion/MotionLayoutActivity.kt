@@ -25,5 +25,6 @@ class MotionLayoutActivity : AppCompatActivity() {
         btnCoordinatorLayout2.setOnClickListener { startActivity(CoordinatorLayoutWithMotionLayout2Activity.newIntent(this)) }
         btnParallax.setOnClickListener { startActivity(MotionParallaxActivity.newIntent(this)) }
         btnViewPager.setOnClickListener { startActivity(MotionViewPagerActivity.newIntent(this)) }
+        btnFragment.setOnClickListener { startActivity(MotionFragmentActivity.newIntent(this)) }
     }
 }

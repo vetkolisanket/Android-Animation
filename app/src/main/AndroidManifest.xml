@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".constraint.motion.MotionViewPagerActivity"></activity>
+        <activity android:name=".constraint.motion.MotionFragmentActivity"></activity>
+        <activity android:name=".constraint.motion.MotionViewPagerActivity" />
         <activity android:name=".constraint.motion.MotionParallaxActivity" />
         <activity android:name=".constraint.motion.CoordinatorLayoutWithMotionLayout2Activity" />
         <activity android:name=".constraint.motion.ImageSaturationActivity" />
