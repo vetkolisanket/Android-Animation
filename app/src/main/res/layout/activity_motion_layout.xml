@@ -70,4 +70,10 @@
         android:layout_height="wrap_content"
         android:text="@string/fragment"/>
 
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/youtube"/>
+
 </LinearLayout>

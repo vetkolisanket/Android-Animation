@@ -57,8 +57,8 @@ class MotionFragmentActivity : AppCompatActivity(), MotionLayout.TransitionListe
                     }
                 }
             }
-            lastProgress = progress
         }
+        lastProgress = progress
     }
 
     override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) = Unit

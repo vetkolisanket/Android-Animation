@@ -153,4 +153,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="second">Second</string>
     <string name="first">First</string>
+    <string name="youtube">YouTube</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notification</string>
 </resources>

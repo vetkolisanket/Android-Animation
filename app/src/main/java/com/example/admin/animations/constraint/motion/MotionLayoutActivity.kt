@@ -26,5 +26,6 @@ class MotionLayoutActivity : AppCompatActivity() {
         btnParallax.setOnClickListener { startActivity(MotionParallaxActivity.newIntent(this)) }
         btnViewPager.setOnClickListener { startActivity(MotionViewPagerActivity.newIntent(this)) }
         btnFragment.setOnClickListener { startActivity(MotionFragmentActivity.newIntent(this)) }
+        btnYoutube.setOnClickListener { startActivity(MotionYouTubeActivity.newIntent(this)) }
     }
 }
