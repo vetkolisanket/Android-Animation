@@ -14,7 +14,7 @@
         android:layout_height="320dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"/>
 
         <ImageView
             android:id="@+id/topImage"
@@ -51,8 +51,6 @@
             app:layout_constraintTop_toTopOf="@id/topImageContainer"
             app:srcCompat="@drawable/ic_play_arrow_gray_32dp"
             tools:ignore="ContentDescription" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout
         android:id="@+id/recyclerViewContainer"
