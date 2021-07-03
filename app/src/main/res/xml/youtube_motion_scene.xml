@@ -117,8 +117,6 @@
             app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" >
-            <CustomAttribute app:attributeName="backgroundColor"
-                app:customColorValue="@android:color/white" />
         </Constraint>
 
         <Constraint

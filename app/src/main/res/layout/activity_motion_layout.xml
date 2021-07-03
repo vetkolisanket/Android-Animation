@@ -76,4 +76,10 @@
         android:layout_height="wrap_content"
         android:text="@string/youtube"/>
 
+    <Button
+        android:id="@+id/btnKeyTrigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/key_trigger"/>
+
 </LinearLayout>
