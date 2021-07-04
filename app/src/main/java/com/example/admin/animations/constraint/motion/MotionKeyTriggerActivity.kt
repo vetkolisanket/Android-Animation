@@ -6,13 +6,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.admin.animations.R
 
-class CoordinatorLayoutWithMotionLayout2Activity : AppCompatActivity() {
+class MotionKeyTriggerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_coordinator_layout_with_motion_layout2)
+        setContentView(R.layout.activity_motion_key_trigger)
     }
 
     companion object {
-        fun newIntent(context: Context) = Intent(context, CoordinatorLayoutWithMotionLayout2Activity::class.java)
+
+        fun newIntent(context: Context) = Intent(context, MotionKeyTriggerActivity::class.java)
+
     }
+
 }
