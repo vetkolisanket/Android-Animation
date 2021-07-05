@@ -158,4 +158,5 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notification</string>
     <string name="key_trigger">Key Trigger</string>
+    <string name="multi_state">Multi State</string>
 </resources>

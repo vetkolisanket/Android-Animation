@@ -82,4 +82,10 @@
         android:layout_height="wrap_content"
         android:text="@string/key_trigger"/>
 
+    <Button
+        android:id="@+id/btnMultiState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_state"/>
+
 </LinearLayout>
