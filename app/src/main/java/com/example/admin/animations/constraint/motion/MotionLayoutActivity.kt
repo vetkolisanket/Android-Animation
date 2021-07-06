@@ -28,5 +28,6 @@ class MotionLayoutActivity : AppCompatActivity() {
         btnFragment.setOnClickListener { startActivity(MotionFragmentActivity.newIntent(this)) }
         btnYoutube.setOnClickListener { startActivity(MotionYouTubeActivity.newIntent(this)) }
         btnKeyTrigger.setOnClickListener { startActivity(MotionKeyTriggerActivity.newIntent(this)) }
+        btnMultiState.setOnClickListener { startActivity(MotionMultiStateActivity.newIntent(this)) }
     }
 }
