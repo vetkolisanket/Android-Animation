@@ -40,21 +40,21 @@ class MotionFragmentActivity : AppCompatActivity(), MotionLayout.TransitionListe
 
     override fun onTransitionChange(p0: MotionLayout?, p1: Int, p2: Int, progress: Float) {
         if (progress - lastProgress > 0) {
-            val atEnd = abs(progress - 1) < 0.1
+            val atEnd = progress > 0.9
             if (atEnd && fragment is FirstFragment) {
                 val transaction = supportFragmentManager.beginTransaction()
                 transaction.setCustomAnimations(R.animator.show, 0)
                 fragment = SecondFragment.newInstance().also {
                     transaction.replace(R.id.container, it).commitNow()
                 }
-            } else {
-                val atStart = progress < 0.9
-                if (atStart && fragment is SecondFragment) {
-                    val transaction = supportFragmentManager.beginTransaction()
-                    transaction.setCustomAnimations(0, R.animator.hide)
-                    fragment = FirstFragment.newInstance().also {
-                        transaction.replace(R.id.container, it).commitNow()
-                    }
+            }
+        } else {
+            val atStart = progress < 0.9
+            if (atStart && fragment is SecondFragment) {
+                val transaction = supportFragmentManager.beginTransaction()
+                transaction.setCustomAnimations(0, R.animator.hide)
+                fragment = FirstFragment.newInstance().also {
+                    transaction.replace(R.id.container, it).commitNow()
                 }
             }
         }
